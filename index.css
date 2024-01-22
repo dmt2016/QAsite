@@ -1,0 +1,446 @@
+body{
+    display: grid;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 50;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    background-color: rgba(181, 185, 185, 0.105);
+    justify-content: space-between;
+    height: 35%;
+    padding: 1rem 3rem;
+    align-items: center;
+    text-decoration: none;
+    border: rgba(48, 12, 138, 0.144);
+    border-style: outset;
+    border-width: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+}
+
+#links{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1rem;
+}
+
+#logo{
+    font-size: 150%;
+    color: rgb(255, 196, 1);
+    letter-spacing: -1px;
+}
+
+#logo i{
+    color: rgb(48, 12, 138);
+    font-size: 95%;
+}
+
+img{
+    justify-self: right;
+    width: 50%;
+    height: 80%;
+}
+
+#links,a{
+    color: rgb(101, 101, 101);
+    text-decoration: none;
+    align-items: center;
+}
+
+#links li:hover{
+    color: #5B33FF;
+    font-size: 1.1em;
+    transition: ease-in-out .2s;
+}
+
+.hero{
+    display: flex;
+    justify-items: left;
+    align-content: end;
+    height: 90vh;
+    width: 80vw;
+    padding: 0 10rem;
+    margin-top: 5rem;
+    color: rgb(130, 130, 131);
+ }
+
+ .hook{
+    color: rgb(40, 40, 40);
+    font-size: 195%;
+    line-height: 1;
+    padding-top: 2rem;
+ }
+
+ .hook i{
+    color: rgb(207, 165, 28);
+    font-weight: 100;
+ }
+
+ .hook h1{
+    color: #5e3fd8;
+    text-shadow: #5B33FF .25px .5px .5px;
+ }
+
+#more img{
+    height: 50px;
+    width: 50px;
+    padding-left: 2rem;
+    transition: padding-top .8s;
+    padding-top: .5rem;
+ }
+
+ #more img:hover{
+    padding-top: 1.5rem;
+ }
+
+ #more{
+    position: absolute;
+    display: block;
+    height: 20vh;
+ }
+
+ #contact{
+    background-color: #5c33fff2;
+    border-radius: 20px;
+    padding: .8rem 2rem;
+    color: rgba(255, 255, 255, 0.833);
+ }
+
+ #more h6{
+    margin-bottom: 1rem;
+ }
+
+ .borda, .borda2{
+  width: 80%;
+  border-top-style: solid;
+  border-color: lightgray;
+  justify-self: center;
+  position: absolute;
+  top: 1048px;
+  z-index: auto;
+  border-left-style: solid;
+  border-right-style: solid;
+  height: 20px;
+ }
+
+.borda1{
+   border-bottom-style: solid;
+   border-color: lightgrey;
+   margin-top: 1rem;
+   width: 80%;
+   justify-self: center;
+   border-left-style: solid;
+   border-right-style: solid;
+   height: 20px;
+}
+
+.borda2{
+   top: 1940px;
+   z-index: 3;
+}
+
+ #about{
+    display: grid;
+    justify-items: center;
+    margin: 0;
+    gap: 2rem;
+    position: relative;
+    padding: 1rem;
+}
+
+.call h1{
+    color: rgb(77, 77, 77);
+    font-size: xx-large;
+    font-weight: 80;
+    background-color: white;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 3;
+ }
+
+ .cont-about{
+    display: block;
+    height: 103%;
+    width: 400px;
+    box-shadow: 1px 0 15px 1px rgba(128, 128, 128, 0.365);
+ }
+
+ .cont-about::before{
+   content: "";
+   position: absolute;
+   display: block;
+   background-color: rgba(35, 11, 142, 0.429);
+   width: 23.75%;
+   height: 39%;
+   mix-blend-mode: screen;
+ }
+
+ .pic{
+    height: 300px;
+    width: 100%;
+ }
+
+ .boxes{
+    display: flex;
+    gap: 1rem;
+ }
+
+ .cont-about h3{
+  display: flex;
+  justify-content: start;
+  margin-left: 1rem;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-right-color:rgb(164, 164, 164);
+  border-left-color:rgb(164, 164, 164);
+  width: 80px;
+  padding: 0 .5rem;
+  font-size: medium;
+ }
+
+ .cont-about h4{
+   display: flex;
+   margin-top: 1rem;
+   color: rgb(5, 11, 17);
+   justify-content: center;
+ }
+
+ .cont-about p{
+  padding: 0 1rem;
+ }
+
+ .para{
+  height: 12vh;
+ }
+
+ .training-logo{
+  width: 60px;
+  height: 25px;
+  border-style: solid;
+  border-color: rgb(169, 169, 169);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+ }
+
+ .training-logo:hover{
+  border-color: rgb(93, 26, 237);
+ }
+
+ .logos{
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+ }
+
+ #blogs{
+  margin-top: 5rem;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(238, 238, 238));
+  display: grid;
+  justify-items: center;
+  padding-bottom: 4rem;
+  position: inherit;
+  padding: 0 1rem;
+ }
+
+ .cont-blog{
+  display: flex;
+  height: 70%;
+  width: 60%;
+  padding: 3rem 1rem;
+  box-shadow: 1px 0 15px 1px rgba(128, 128, 128, 0.365);
+  background-color: white;
+  justify-items: center;
+  align-content: start;
+ }
+
+ #bimg{
+   font-size: 10px;
+ }
+ 
+ .cont-blog i{
+   margin: 0;
+   padding: 0;
+ }
+
+ .cont-blog h3{
+   margin: 0;
+ }
+
+ .cont-blog a{
+   justify-self: left;
+ }
+
+ .cont-blog img{
+   width: 100px;
+   height: 100px;
+   background-color: white;
+   border-radius: 50px;
+   border-color: grey;
+   border-style: solid;
+   border-width: 1px;
+   margin-right: 1rem;
+ }
+
+ .tblogs{
+  display: flex;
+  gap: 1rem;
+ }
+
+ footer{
+  background-color: #5B33FF;
+  height: 20vh;
+ }
+
+ #bio{
+   padding: 1rem;
+   display: flex;
+   margin: 0 5rem;
+   gap: 1rem;
+ }
+
+ #bio img{
+   width: 400px;
+   height: 200px;
+   align-self: center;
+ }
+
+ #bio::before{
+   content: "";
+   display: block;
+   position: absolute;
+   background-color: #ffffff;
+   width: 400px;
+   height: 200px;
+   align-self: center;
+   mix-blend-mode: hue;
+ }
+
+ #words{
+   padding: 3rem 0;
+ }
+
+ footer{
+   display: flex;
+   align-items: end;
+   justify-content: center;
+   padding-bottom: 2rem;
+ }
+
+ @media screen and (max-width: 600px) {
+
+   html{
+      max-width: 600px;
+   }
+
+   body{
+      display: grid;
+      width: 550px;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+   }
+
+   .hero{
+      display: grid;
+      justify-self: center;
+      padding: 0 2rem;
+      margin-bottom: 5rem;
+      width: initial;
+      margin-top: 0;
+   }
+
+   .hook{
+      display: block;
+      justify-self: center;
+      width: 450px;
+      margin: 0;
+      padding: 0;
+   }
+
+   nav{
+      margin: 0;
+   }
+
+   #links{
+      display: none;
+   }
+
+   .hero img{
+      width: 90%;
+      height: 90%;
+   }
+
+   .borda, .borda1, .borda2{
+      display: none;
+   }
+
+   #about, #blogs{
+      display: grid;
+      width: 550px;
+      justify-content: center;
+      padding: 0;
+      margin: 5rem, 0;
+   }
+
+   .boxes{
+      display: grid;
+      width: auto;
+      gap: 3rem;
+   }
+
+   .borda, .borda1, .borda2{
+      display: none;
+   }
+
+   .cont-about::before{
+      display: none;
+    }
+
+   .tblogs{
+      display: grid;
+      justify-items: center;
+      width: auto;
+      gap: 0;
+   }
+
+   .call h1{
+      justify-self: center;
+      font-size: 1.5rem;
+      padding: 0;
+   }
+
+   #bio{
+      display: none;
+   }
+
+   #more{
+      display: none;
+   }
+
+   .cont-blog{
+      width: 65%;
+   }
+
+   
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
