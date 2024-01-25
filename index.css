@@ -11,6 +11,7 @@ html{
 
 nav{
     display: flex;
+    width: 95vw;
     background-color: rgba(181, 185, 185, 0.105);
     justify-content: space-between;
     height: 35%;
@@ -41,6 +42,10 @@ nav{
 #logo i{
     color: rgb(48, 12, 138);
     font-size: 95%;
+}
+
+.dropdown{
+   display: none;
 }
 
 img{
@@ -429,7 +434,65 @@ img{
       width: 65%;
    }
 
-   
+   .dropbtn {
+      background-color: #5c33fff2;
+      color: white;
+      padding: .75rem 1.5rem;
+      font-size: 16px;
+      border: none;
+      border-radius: 50px;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+      background-color: #515151;
+    }
+
+    #logo{
+      margin: 0 2rem;
+    }
+
+    footer #logo{
+      margin: 0;
+      padding: 0;
+    }
+
+    footer #logo i{
+      color: white;
+    }
+
+    footer div{
+      display: grid;
+      justify-items: center;
+    }
 
  }
 

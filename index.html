@@ -10,15 +10,22 @@
     <title>SoftwareTestingQA</title>
 </head>
 <body>
-    <nav class="nav">
-        <a href="#" id="logo"><i>SoftwareTesting</i><b>QA</b></a>
-        <ul id="links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">Training</a></li>
-            <li><a href="#blogs">Blog</a></li>
-            <li><a href="#bio">About</a></li>
-            <li><a href="#"><div id="contact">Contact</div></a></li>
-        </ul>
+    <nav class="nav" id="home">
+        <div id="logo"><i>SoftwareTesting</i><b>QA</b></div>
+        <div id="links">
+            <li><a href="#about">Training</a></li>  
+            <li><a href="#blogs">Blog</a></li>   
+            <li><a href="#bio">About</a></li>  
+            <li><a href="https://softwaretestingqa.com/contact-us/" target="#"><div id="contact">Contact</div></a></li>  
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#about">Training</a> 
+                <a href="#blogs">Blog</a>  
+                <a href="https://softwaretestingqa.com/contact-us/" target="#">Contact</a> 
+            </div>
+        </div>
     </nav>
     <section class="hero">
         <div class="hook">
@@ -170,7 +177,10 @@
         </div>
     </section>
     <footer>
-        Copyright ©2024
+        <div>
+            <a href="#home" id="logo"><i>SoftwareTesting</i><b>QA</b></a>
+            Copyright ©2024
+        </div>
     </footer>
 </body>
 </html>
