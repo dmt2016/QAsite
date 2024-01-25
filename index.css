@@ -54,6 +54,11 @@ img{
     height: 80%;
 }
 
+#mainpic{
+   min-height: 500px;
+   min-width: 500px;
+}
+
 #links,a{
     color: rgb(101, 101, 101);
     text-decoration: none;
@@ -82,6 +87,7 @@ img{
     font-size: 195%;
     line-height: 1;
     padding-top: 2rem;
+    min-width: 450px;
  }
 
  .hook i{
@@ -154,7 +160,7 @@ img{
    position: absolute;
    display: block;
    background-color: rgba(35, 11, 142, 0.429);
-   width: 23.75%;
+   width: 23.25%;
    height: 39.5%;
    mix-blend-mode: screen;
  }
@@ -311,8 +317,26 @@ img{
  }
 
  footer #logo{
-   display: none;
+   display: contents;
  }
+
+ footer #logo i{
+   color: white;
+ }
+
+ footer div{
+   display: grid;
+   justify-items: center;
+ }
+ 
+ footer p{
+   padding: 0;
+   margin: 0;
+ }
+
+ @media screen and (max-width: 1000px) {
+   
+}
 
  @media screen and (max-width: 600px) {
 
@@ -354,8 +378,10 @@ img{
    }
 
    .hero img{
-      width: 90%;
-      height: 90%;
+      width: 400px;
+      min-width: 400px;
+      height: 400px;
+      min-height: 400px;
    }
 
    #about, #blogs{
@@ -390,7 +416,7 @@ img{
    .call h1{
       justify-self: center;
       font-size: 1.5rem;
-      padding: 0;
+      padding: 2rem 0;
    }
 
    #bio{
@@ -445,23 +471,6 @@ img{
     
     .dropdown:hover .dropbtn {
       background-color: #515151;
-    }
-
-    #logo{
-      margin: 0 2rem;
-    }
-
-    footer #logo{
-      display: contents;
-    }
-
-    footer #logo i{
-      color: white;
-    }
-
-    footer div{
-      display: grid;
-      justify-items: center;
     }
 
  }
