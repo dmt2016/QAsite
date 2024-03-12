@@ -334,10 +334,6 @@ img{
    margin: 0;
  }
 
- @media screen and (max-width: 1000px) {
-   
-}
-
  @media screen and (max-width: 600px) {
 
    html{
@@ -345,7 +341,7 @@ img{
    }
 
    body{
-      display: grid;
+      display: block;
       width: 550px;
       justify-content: center;
       margin: 0;
@@ -353,12 +349,12 @@ img{
    }
 
    .hero{
-      display: grid;
+      display: block;
       justify-self: center;
       padding: 0 2rem;
-      margin-bottom: 5rem;
+      margin-bottom: 1rem;
       width: initial;
-      margin-top: 0;
+      height: fit-content;
    }
 
    .hook{
@@ -371,17 +367,11 @@ img{
 
    nav{
       margin: 0;
-   }
+      min-width: fit-content;
+    }
 
    #links{
       display: none;
-   }
-
-   .hero img{
-      width: 400px;
-      min-width: 400px;
-      height: 400px;
-      min-height: 400px;
    }
 
    #about, #blogs{
@@ -396,6 +386,10 @@ img{
       display: grid;
       width: auto;
       gap: 3rem;
+   }
+
+   .para{
+      height: fit-content;
    }
 
    .borda, .borda1, .borda2{
@@ -431,6 +425,10 @@ img{
       width: 65%;
    }
 
+   .cont-about a{
+      margin: 2rem 1rem;
+   }
+
    .dropbtn {
       background-color: #5c33fff2;
       color: white;
@@ -441,7 +439,7 @@ img{
     }
     
     .dropdown {
-      position: relative;
+      /* position: relative; */
       display: inline-block;
     }
     
