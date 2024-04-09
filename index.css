@@ -132,7 +132,7 @@ img{
  #about{
     display: grid;
     justify-items: center;
-    margin: 0;
+    margin: 5rem 0;
     gap: 1rem;
     position: relative;
     padding: 1rem;
@@ -150,8 +150,8 @@ img{
 
  .cont-about{
     display: block;
-    height: 103%;
-    width: 400px;
+    height: 120%;
+    width: 40%;
     box-shadow: 1px 0 15px 1px rgba(128, 128, 128, 0.365);
  }
 
@@ -160,13 +160,13 @@ img{
    position: absolute;
    display: block;
    background-color: rgba(35, 11, 142, 0.429);
-   width: 23.25%;
-   height: 39.5%;
+   width: 23.3%;
+   height: 36.2%;
    mix-blend-mode: screen;
  }
 
  .pic{
-    height: 300px;
+    height: 40%;
     width: 100%;
  }
 
@@ -200,12 +200,12 @@ img{
  }
 
  .para{
-  height: 12vh;
+  height: 20%;
  }
 
  .training-logo{
-  width: 60px;
-  height: 25px;
+  width: 40%;
+  height: 40%;
   border-style: solid;
   border-color: rgb(169, 169, 169);
   padding: 1rem 2rem;
@@ -218,8 +218,8 @@ img{
 
  .logos{
   display: flex;
-  justify-content: center;
-  gap: .5rem;
+  width: 70%;
+  margin: auto;
  }
 
  #blogs{
@@ -314,6 +314,7 @@ img{
    align-items: end;
    justify-content: center;
    padding-bottom: 2rem;
+   width: 100%;
  }
 
  footer #logo{
@@ -367,25 +368,19 @@ img{
 
    nav{
       margin: 0;
+      padding: 1rem 1rem;
       min-width: fit-content;
-    }
+     }
 
    #links{
       display: none;
    }
-
+   
    #about, #blogs{
       display: grid;
       width: 550px;
       justify-content: center;
-      padding: 0;
-      margin: 5rem, 0;
-   }
-
-   .boxes{
-      display: grid;
-      width: auto;
-      gap: 3rem;
+      padding: 3rem 0;
    }
 
    .para{
@@ -398,6 +393,17 @@ img{
 
    .cont-about::before{
       display: none;
+    }
+
+    .boxes{
+      display: grid;
+      height: fit-content;
+      width: 65%;
+    }
+
+    .cont-about{
+      width: 100%;
+      height: fit-content;
     }
 
    .tblogs{
