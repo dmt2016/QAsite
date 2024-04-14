@@ -132,7 +132,7 @@ img{
  #about{
     display: grid;
     justify-items: center;
-    margin: 5rem 0;
+    margin: 3rem 0;
     gap: 1rem;
     position: relative;
     padding: 1rem;
@@ -142,15 +142,27 @@ img{
     color: rgb(77, 77, 77);
     font-size: xx-large;
     font-weight: 80;
-    position: relative;
-    z-index: 3;
-    padding: 2rem 0;
+    padding: 0;
     margin: 0;
+ }
+
+ .call{
+   display: grid;
+   position: relative;
+   z-index: 3;
+   padding: 2rem 0;
+   margin: 0;
+   justify-items: center;
+ }
+
+ .call p{
+   margin: 0;
+   padding: 0;
  }
 
  .cont-about{
     display: block;
-    height: 120%;
+    height: 110%;
     width: 40%;
     box-shadow: 1px 0 15px 1px rgba(128, 128, 128, 0.365);
  }
@@ -161,7 +173,7 @@ img{
    display: block;
    background-color: rgba(35, 11, 142, 0.429);
    width: 23.3%;
-   height: 36.2%;
+   height: 34%;
    mix-blend-mode: screen;
  }
 
@@ -175,7 +187,7 @@ img{
     gap: 1rem;
  }
 
- .cont-about h3{
+ .cont-about h5{
   display: flex;
   justify-content: start;
   margin-left: 1rem;
@@ -183,9 +195,18 @@ img{
   border-right-style: solid;
   border-right-color:rgb(164, 164, 164);
   border-left-color:rgb(164, 164, 164);
-  width: 80px;
+  width: fit-content;
   padding: 0 .5rem;
   font-size: medium;
+ }
+
+ .fee{
+   display: flex;
+ }
+
+ .fee h5:hover{
+  color: #5B33FF;
+  border-color: #5B33FF;
  }
 
  .cont-about h4{
@@ -223,7 +244,7 @@ img{
  }
 
  #blogs{
-  margin-top: 5rem;
+  margin: 3rem 0;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(238, 238, 238));
   display: grid;
   justify-items: center;
@@ -233,14 +254,37 @@ img{
  }
 
  .cont-blog{
-  display: flex;
-  height: 70%;
+  display: grid;
+  height: 90%;
   width: 60%;
-  padding: 3rem 1rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
   box-shadow: 1px 0 15px 1px rgba(128, 128, 128, 0.365);
   background-color: white;
   justify-items: center;
   align-content: start;
+ }
+
+ .blog-cont{
+   display: flex;
+   height: 35vh;
+   padding: 1rem 0;
+ }
+
+ .blog-cont a:hover{
+  color: darkgoldenrod;
+ }
+
+ .words{
+  overflow-y: scroll;
+ }
+
+ .feature{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   text-transform: uppercase;
  }
 
  #bimg{
@@ -276,6 +320,11 @@ img{
   gap: 1rem;
  }
 
+ .bottom a:hover{
+  color: #5B33FF;
+  text-decoration: underline;
+ }
+
  footer{
   background-color: #5B33FF;
   height: 20vh;
@@ -284,14 +333,18 @@ img{
  #bio{
    padding: 1rem;
    display: flex;
-   margin: 0 5rem;
+   margin: 5rem 5rem;
    gap: 1rem;
  }
 
  #bio img{
    width: 400px;
    height: 200px;
-   align-self: center;
+ }
+
+ #words h1{
+  margin: 0;
+  padding: 0;
  }
 
  #bio::before{
@@ -303,10 +356,6 @@ img{
    height: 200px;
    align-self: center;
    mix-blend-mode: hue;
- }
-
- #words{
-   padding: 3rem 0;
  }
 
  footer{
