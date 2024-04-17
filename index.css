@@ -402,7 +402,7 @@ img{
       display: none;
     }
 
-    .pic{
+   .pic{
       height: 30%;
       width: 100%;
    }
@@ -488,19 +488,23 @@ img{
     .boxes{
       display: grid;
       height: fit-content;
-      width: 65%;
       justify-content: center;
     }
 
     .cont-about{
-      width: 100%;
+      width: 81%;
       height: fit-content;
+      margin: 0 auto;
     }
 
    .tblogs{
       display: grid;
       justify-items: center;
       gap: 0;
+   }
+
+   .words{
+      padding: 0 .5rem;
    }
 
    .call h1{
