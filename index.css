@@ -163,11 +163,11 @@ img{
  .cont-about{
     display: block;
     height: 110%;
-    width: 40%;
+    width: 390px;
     box-shadow: 1px 0 15px 1px rgba(128, 128, 128, 0.365);
  }
 
- .cont-about::before{
+ /* .cont-about::before{
    content: "";
    position: absolute;
    display: block;
@@ -175,7 +175,7 @@ img{
    width: 23.8%;
    height: 34.5%;
    mix-blend-mode: screen;
- }
+ } */
 
  .pic{
     height: 40%;
@@ -234,6 +234,7 @@ img{
  .youtube{
   height: 30px;
   width: 60px;
+  margin: 0 auto;
  }
 
  .training-logo:hover, #youtube:hover{
@@ -397,21 +398,16 @@ img{
  }
 
  @media screen and (max-width: 1000px) {
-   
-   .cont-about::before{
-      display: none;
-    }
-
-   .pic{
+   /* .pic{
       height: 30%;
       width: 100%;
-   }
+   } */
 
-   .para{
+   /* .para{
       height: 30%;
       width: fit-content;
       padding: 0 1rem;
-   }
+   } */
 
    .fee{
       width: fit-content;
